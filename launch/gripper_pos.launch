@@ -1,0 +1,8 @@
+<launch>
+	<node
+		pkg = "fetch_vr_cockpit_backend"
+		type = "gripper_position_node"
+		name = "gripper_position_node"
+		output = "screen"
+	/>
+</launch>
